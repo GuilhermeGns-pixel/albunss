@@ -4,12 +4,14 @@
     box-sizing: border-box;
 
 }
+
 .ctn-main {
     display: flex;
-    margin-top: 2em;
-    
+    margin-top: 2em;  
 }
-
+.tab-pane a{
+    border: none;
+}
 .container .ctn-main{
     padding-top: 1em;
 }
@@ -29,7 +31,8 @@
 .card{
     margin-bottom: 1em;
 }
-.card-header{
+.card-header,
+header, .nav-link{
     text-transform: uppercase;
     text-align: center;
 }
@@ -47,15 +50,42 @@ header{
     left: 0;
     color: white;
     z-index: 1 ;
-    background-color: rgb(56, 56, 252);
+    background-color: rgb(139, 18, 238);
 }
+#header .nav .nav-link.active {
+    color: white;
+    background-color: rgba(40, 0, 66, 0.4);
+}
+.collapse .nav-link{
+    color: white;
+}
+.btn:hover{
+    background-color: rgba(59, 3, 105, 0.9) ;
+}
+/* .nav-link:hover{
+    color: white;
+} */
 .carousel{
     z-index: 0;
+}
+.card-body .btn{
+    border: none;
+}
+.nav-music .nav-link.active, .btn {
+    background-color: rgb(139, 18, 238);
+    color: white;
+}
+.nav-music .nav-link{
+    color: rgb(139, 18, 238);
+}
+.nav-music .nav-link:hover{
+    color: rgb(63, 11, 105) ;
+
 }
 #footer{
     text-align: center;
     padding: 1em;
-    background-color: rgb(56, 56, 252);
+    background-color: rgb(139, 18, 238) ;
     color: white;
     
 }
