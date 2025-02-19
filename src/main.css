@@ -28,6 +28,7 @@
 .row{
     margin-top:50px ;
 }
+
 .card{
     margin-bottom: 1em;
 }
@@ -82,9 +83,12 @@ header{
     color: rgb(63, 11, 105) ;
 
 }
+.text-colored{
+    color: rgb(139, 18, 238);
+}
 #footer{
     text-align: center;
-    padding: 1em;
+    padding: 0.5em;
     background-color: rgb(139, 18, 238) ;
     color: white;
     
